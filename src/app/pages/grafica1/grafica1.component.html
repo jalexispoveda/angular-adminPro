@@ -1,1 +1,14 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-md-6">
+    <app-dona title="ventas"></app-dona>
+  </div><div class="col-md-6">
+    <app-dona></app-dona>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <app-dona [labels] = "labelsToSend" [data] = "dataToSend" title="prueba"></app-dona>
+  </div><div class="col-md-6">
+    <app-dona [data] = "dataToSend"></app-dona>
+  </div>
+</div>
