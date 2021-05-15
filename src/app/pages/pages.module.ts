@@ -10,6 +10,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -19,14 +21,17 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   exports : [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,

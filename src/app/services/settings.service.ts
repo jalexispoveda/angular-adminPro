@@ -8,7 +8,6 @@ export class SettingsService {
   public linkTheme = document.querySelector('#theme');
 
   constructor() { 
-    console.log('Setting services init');
   }
 
   changeTheme(theme: string){
